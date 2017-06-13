@@ -10,6 +10,11 @@ var johnQualls = {
 
 };
 
+/*this is a editotial comment!*/
+/*
+
+
+
 console.log(johnQualls);
 console.log(johnQualls.age);
 console.log(johnQualls.name + " is of the age: " + johnQualls.age);
