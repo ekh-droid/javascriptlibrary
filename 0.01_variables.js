@@ -36,3 +36,16 @@ var rainy = false;
 */
 console.log( "The answer to 10 % 3 is: " , 10 % 3 );
 console.log(typeof(console));
+
+//objects are passed around by reference.. never copied
+var x = vega;
+x.nickname = 'Gedi';
+var nick =vega.nickname;
+	//nick is 'Gedi' because x and vega
+	//x, gedi, and vega are references to the same object
+
+	var a = {}, b = {}, c = {};
+	//a, b, and c each refer to a different empty object
+
+	a = b = c = {};
+	//a, b, and c each refer to the same empty object

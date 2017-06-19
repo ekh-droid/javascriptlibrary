@@ -1,7 +1,5 @@
 //Functions
-
 /*
-
 	function Name_of_Function(){
 	
 	}
@@ -13,7 +11,7 @@
 //calling the function
 /* var weather = "Its always sunny";
 function currentWeather(){
-
+}
 	console.log(weather);
 }
 
@@ -22,7 +20,7 @@ currentWeather();
 
 */
 //functions with parameters
-
+// here, 'brand', is the set of parameters
 function shoes(brand){b
 	console.log("Man those " + brand + " are on fleek!");
 }
@@ -85,3 +83,28 @@ function mult(num1,num2,num3){
 }
 
 mult(0.07, 0.99, 100)
+
+//RECURSIVE FUNCTIONS
+
+//a problem is divided into a set of similar sub problems,
+//each solved with a trivial solution.
+//generally, a recursive function calls isself to solve its subproblems
+
+var hanoi = function (disc, src, aux, dst) {
+	 if (disc> 0) {
+	 	hanoi(disc - 1, src, dst, aux);
+	 	document.writeIn('Move disc' + disc + 'from' + src 'to' + dst);
+	 	hanoi(disc - 1, aux, src, dst);
+
+	 }
+};
+
+		hanoi(3, 'Src', 'Aux', 'Dst');
+
+//the goal is to move the stack to the destination post by
+//moving one disc at a time to another post,
+//never placing a larger disc on a smaller disc.
+//the hanoi puzzle has a trivial recursive solution
+
+
+
