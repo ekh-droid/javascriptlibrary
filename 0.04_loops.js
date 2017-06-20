@@ -1,17 +1,8 @@
 //Loops
 
-//////////////////////////////////////DO WHILE LOOPS
+////DO WHILE LOOPS
 /*
-lcv = 0 
-
-do {
-	lcv = lcv + 1
-	// some code goes here for the loop//
-} while ( true || false )
-
-
-
-*/
+loops always start with a value of 0
 
 var lcv1 = 0;
 
@@ -71,9 +62,6 @@ while( cdown > 0){
 
 /*
 for (lcv = 0; true or false espression ; increment || decrement){
-	~code goes here~
-}
-
 */
 
 for (apples = 0 ; apples < 10; apples++){
@@ -118,8 +106,6 @@ for ( list in lists ){
 		for ( t in temp = cats + dogs + ppl )
 		console.log(temp[t])
 	}
-
-
 
 
 

@@ -12,7 +12,8 @@ send_request_asynchronously (request, function(response){
 //abstract function
 
 //when i first do this, i want to make sure i select a filepath as the first parameter
-//2nd parameter being what words to select
+//2nd parameter being what words to select - so..
+//getBulls(filepath,[options],[callback])
 function getBulls(filepath, done){
 	//make sure i can compare things against, hey file system, read this file that the
 	//user of the function passes into it as an srguement.
@@ -59,3 +60,13 @@ getBulls('0.08_bulls.txt', function(bulls){
 
 	console.log(bulls);
 })
+
+//refers back to express and require, 
+//app =express();
+
+console.log("HEY tell me your name");
+var printNameInThreeSeconds = setTimeout(function(){
+	console.log("Bryce");
+
+}, 3000);
+console.log("nice to mett you");
