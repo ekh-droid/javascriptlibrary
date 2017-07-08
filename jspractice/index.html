@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>dots</title>
+      <link rel="stylesheet" href="css/style.css">
+      					
+</head>
+
+<body>
+<canvas id="text" width="500" height="100"></canvas>
+<canvas id="stage" width="500" height="100"></canvas>
+ <div id="wrapper">
+		<div id="container" style="background-color: #fff">
+		<div id="overlay">
+		<section id="main">
+			<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+		<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+							    <a href="#">About</a>
+							    <a href="#">projects</a>
+							    <a href="#">Contact</a>
+		 </div>
+		</div></div>
+					</div>
+					 </section>
+
+<!--form holds zee dots-->
+
+<form id="form">
+			<div id="container" style="background-color: #fff">
+			  <div id="overlay">
+				 <section id="main">
+
+				 <H1>Elena</h1><br>
+			  div container over canvas<br>
+			  containing some content<br>
+			  ooooh<hr>
+			  aaahhhh<hr>
+</section>
+</form>
+</div>
+
+<!--script sources-->
+
+ <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/EasePack.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/TweenLite.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/easeljs-0.7.1.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/requestAnimationFrame.js'></script>
+<script src="js/index.js"></script>
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+</body>
+</html>
