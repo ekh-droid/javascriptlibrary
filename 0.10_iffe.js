@@ -16,3 +16,27 @@
 			var b = [1,2,3,4,5,6,7,8,9,10];
 			console.log(b);
 	})();
+
+
+		(function tag() {
+					var h = ["<h1>"+"HEY"+"</h1>"];
+					console.log(h);
+
+		})();
+
+
+
+/* in a real web develop situaton, this is used to create a limited scope which variables can be contained
+and released. 
+*/
+
+(function consoleNum(){
+   var arraigh = [];
+   
+   arraigh.push(6, i + 1, 3);
+   
+   console.log(arraigh[1]);
+   
+})();
+
+console.log(i);
